@@ -1,9 +1,11 @@
 package com.promineotech.chessTracker.entity;
 
 import com.fasterxml.jackson.annotation.JsonIgnore;
+import com.promineotech.chessTracker.entity.Player;
 
 import javax.persistence.*;
 import java.util.Set;
+import com.fasterxml.jackson.annotation.JsonIgnore;
 
 @Entity
 public class Game {
@@ -13,6 +15,9 @@ public class Game {
 	
 	@JsonIgnore
 	private Set<PlayerGame> playerGames;
+	
+	@JsonIgnore
+	private Set<Player> players;
 	
 	public Game() {}
 	public Game(String string) {}
@@ -43,6 +48,16 @@ public class Game {
 	public void setPlayerGames(Set<PlayerGame> playerGames) {
 		this.playerGames = playerGames;
 	}
+	@ManyToMany(cascade = CascadeType.ALL)
+	@JoinTable(name = "gameHistory",
+		joinColumns = @JoinColumn(name = "playerId", referencedColumnName = "id"),
+		inverseJoinColumns = @JoinColumn(name = "gameId", referencedColumnName = "id"))
+	public Set<Player> getPlayers(){
+	return players;
 	
-
+	}
+	
+	public void setPlayers(Set<Player> players) {
+		this.players = players;
+	}
 }

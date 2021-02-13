@@ -1087,3 +1087,408 @@ Caused by: org.hibernate.AnnotationException: Unknown mappedBy in: com.promineot
             --- [cker.App.main()] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat started on port(s): 8080 (http)
 2021-02-08 17:07:45.048  INFO DESKTOP-IR8BVC0
             --- [cker.App.main()] c.p.c.App                                : Started App in 21.281 seconds (JVM running for 25.834)
+2021-02-11 18:31:50.521  INFO DESKTOP-IR8BVC0
+            --- [cker.App.main()] c.p.c.App                                : Starting App on DESKTOP-IR8BVC0 with PID 15404 (C:\Users\Owner\eclipse-workspace\chessTracker\target\classes started by Hannah in C:\Users\Owner\eclipse-workspace\chessTracker)
+2021-02-11 18:31:50.594  INFO DESKTOP-IR8BVC0
+            --- [cker.App.main()] ationConfigEmbeddedWebApplicationContext : Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@3b5fe419: startup date [Thu Feb 11 18:31:50 CST 2021]; root of context hierarchy
+2021-02-11 18:31:53.113  INFO DESKTOP-IR8BVC0
+            --- [cker.App.main()] o.s.b.f.s.DefaultListableBeanFactory     : Overriding bean definition for bean 'beanNameViewResolver': replacing [Root bean: class [null]; scope=; abstract=false; lazyInit=false; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=org.springframework.boot.autoconfigure.web.ErrorMvcAutoConfiguration$WhitelabelErrorViewConfiguration; factoryMethodName=beanNameViewResolver; initMethodName=null; destroyMethodName=(inferred); defined in class path resource [org/springframework/boot/autoconfigure/web/ErrorMvcAutoConfiguration$WhitelabelErrorViewConfiguration.class]] with [Root bean: class [null]; scope=; abstract=false; lazyInit=false; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=org.springframework.boot.autoconfigure.web.WebMvcAutoConfiguration$WebMvcAutoConfigurationAdapter; factoryMethodName=beanNameViewResolver; initMethodName=null; destroyMethodName=(inferred); defined in class path resource [org/springframework/boot/autoconfigure/web/WebMvcAutoConfiguration$WebMvcAutoConfigurationAdapter.class]]
+2021-02-11 18:31:54.429  INFO DESKTOP-IR8BVC0
+            --- [cker.App.main()] o.h.v.i.u.Version                        : HV000001: Hibernate Validator 5.1.3.Final
+2021-02-11 18:31:54.967  INFO DESKTOP-IR8BVC0
+            --- [cker.App.main()] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [class org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$c7a38617] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-02-11 18:31:55.168  INFO DESKTOP-IR8BVC0
+            --- [cker.App.main()] trationDelegate$BeanPostProcessorChecker : Bean 'transactionAttributeSource' of type [class org.springframework.transaction.annotation.AnnotationTransactionAttributeSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-02-11 18:31:55.241  INFO DESKTOP-IR8BVC0
+            --- [cker.App.main()] trationDelegate$BeanPostProcessorChecker : Bean 'transactionInterceptor' of type [class org.springframework.transaction.interceptor.TransactionInterceptor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-02-11 18:31:55.264  INFO DESKTOP-IR8BVC0
+            --- [cker.App.main()] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.config.internalTransactionAdvisor' of type [class org.springframework.transaction.interceptor.BeanFactoryTransactionAttributeSourceAdvisor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-02-11 18:31:56.829  INFO DESKTOP-IR8BVC0
+            --- [cker.App.main()] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat initialized with port(s): 8080 (http)
+2021-02-11 18:31:57.296  INFO DESKTOP-IR8BVC0
+            --- [cker.App.main()] o.a.c.c.StandardService                  : Starting service Tomcat
+2021-02-11 18:31:57.375  INFO DESKTOP-IR8BVC0
+            --- [cker.App.main()] o.a.c.c.StandardEngine                   : Starting Servlet Engine: Apache Tomcat/8.0.26
+2021-02-11 18:31:57.580  INFO DESKTOP-IR8BVC0
+            --- [ost-startStop-1] o.a.c.l.WebappLoader                     : Unknown loader jdk.internal.loader.ClassLoaders$AppClassLoader@2cdf8d8a class jdk.internal.loader.ClassLoaders$AppClassLoader
+2021-02-11 18:31:57.856  INFO DESKTOP-IR8BVC0
+            --- [ost-startStop-1] o.a.c.c.C.[.[.[/]                        : Initializing Spring embedded WebApplicationContext
+2021-02-11 18:31:58.018  INFO DESKTOP-IR8BVC0
+            --- [ost-startStop-1] o.s.w.c.ContextLoader                    : Root WebApplicationContext: initialization completed in 7438 ms
+2021-02-11 18:31:59.813  INFO DESKTOP-IR8BVC0
+            --- [ost-startStop-1] o.s.b.c.e.ServletRegistrationBean        : Mapping servlet: 'dispatcherServlet' to [/]
+2021-02-11 18:31:59.837  INFO DESKTOP-IR8BVC0
+            --- [ost-startStop-1] o.s.b.c.e.FilterRegistrationBean         : Mapping filter: 'characterEncodingFilter' to: [/*]
+2021-02-11 18:31:59.851  INFO DESKTOP-IR8BVC0
+            --- [ost-startStop-1] o.s.b.c.e.FilterRegistrationBean         : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2021-02-11 18:32:00.258  INFO DESKTOP-IR8BVC0
+            --- [ost-startStop-1] o.a.c.u.SessionIdGeneratorBase           : Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [342] milliseconds.
+2021-02-11 18:32:00.822  INFO DESKTOP-IR8BVC0
+            --- [cker.App.main()] j.LocalContainerEntityManagerFactoryBean : Building JPA container EntityManagerFactory for persistence unit 'default'
+2021-02-11 18:32:00.956  INFO DESKTOP-IR8BVC0
+            --- [cker.App.main()] o.h.j.i.u.LogHelper                      : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2021-02-11 18:32:01.469  INFO DESKTOP-IR8BVC0
+            --- [cker.App.main()] o.h.Version                              : HHH000412: Hibernate Core {4.3.11.Final}
+2021-02-11 18:32:01.489  INFO DESKTOP-IR8BVC0
+            --- [cker.App.main()] o.h.c.Environment                        : HHH000206: hibernate.properties not found
+2021-02-11 18:32:01.507  INFO DESKTOP-IR8BVC0
+            --- [cker.App.main()] o.h.c.Environment                        : HHH000021: Bytecode provider name : javassist
+2021-02-11 18:32:01.945  INFO DESKTOP-IR8BVC0
+            --- [cker.App.main()] o.h.a.c.Version                          : HCANN000001: Hibernate Commons Annotations {4.0.5.Final}
+2021-02-11 18:32:02.927 ERROR DESKTOP-IR8BVC0
+            --- [cker.App.main()] o.a.t.j.p.ConnectionPool                 : Unable to create initial connections of pool.
+java.sql.SQLException: Access denied for user 'root'@'localhost' (using password: YES)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:129)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:97)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)
+	at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:836)
+	at com.mysql.cj.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:456)
+	at com.mysql.cj.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:246)
+	at com.mysql.cj.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:197)
+	at org.apache.tomcat.jdbc.pool.PooledConnection.connectUsingDriver(PooledConnection.java:307)
+	at org.apache.tomcat.jdbc.pool.PooledConnection.connect(PooledConnection.java:200)
+	at org.apache.tomcat.jdbc.pool.ConnectionPool.createConnection(ConnectionPool.java:704)
+	at org.apache.tomcat.jdbc.pool.ConnectionPool.borrowConnection(ConnectionPool.java:638)
+	at org.apache.tomcat.jdbc.pool.ConnectionPool.init(ConnectionPool.java:483)
+	at org.apache.tomcat.jdbc.pool.ConnectionPool.<init>(ConnectionPool.java:141)
+	at org.apache.tomcat.jdbc.pool.DataSourceProxy.pCreatePool(DataSourceProxy.java:115)
+	at org.apache.tomcat.jdbc.pool.DataSourceProxy.createPool(DataSourceProxy.java:102)
+	at org.apache.tomcat.jdbc.pool.DataSourceProxy.getConnection(DataSourceProxy.java:126)
+	at org.hibernate.engine.jdbc.connections.internal.DatasourceConnectionProviderImpl.getConnection(DatasourceConnectionProviderImpl.java:139)
+	at org.hibernate.engine.jdbc.internal.JdbcServicesImpl$ConnectionProviderJdbcConnectionAccess.obtainConnection(JdbcServicesImpl.java:279)
+	at org.hibernate.engine.jdbc.internal.JdbcServicesImpl.configure(JdbcServicesImpl.java:124)
+	at org.hibernate.boot.registry.internal.StandardServiceRegistryImpl.configureService(StandardServiceRegistryImpl.java:111)
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.initializeService(AbstractServiceRegistryImpl.java:234)
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.getService(AbstractServiceRegistryImpl.java:206)
+	at org.hibernate.cfg.Configuration.buildTypeRegistrations(Configuration.java:1887)
+	at org.hibernate.cfg.Configuration.buildSessionFactory(Configuration.java:1845)
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl$4.perform(EntityManagerFactoryBuilderImpl.java:857)
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl$4.perform(EntityManagerFactoryBuilderImpl.java:850)
+	at org.hibernate.boot.registry.classloading.internal.ClassLoaderServiceImpl.withTccl(ClassLoaderServiceImpl.java:425)
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.build(EntityManagerFactoryBuilderImpl.java:849)
+	at org.springframework.orm.jpa.vendor.SpringHibernateJpaPersistenceProvider.createContainerEntityManagerFactory(SpringHibernateJpaPersistenceProvider.java:60)
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.createNativeEntityManagerFactory(LocalContainerEntityManagerFactoryBean.java:343)
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.afterPropertiesSet(AbstractEntityManagerFactoryBean.java:318)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1633)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1570)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:539)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:476)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:303)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:230)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:299)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:194)
+	at org.springframework.context.support.AbstractApplicationContext.getBean(AbstractApplicationContext.java:956)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:747)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:480)
+	at org.springframework.boot.context.embedded.EmbeddedWebApplicationContext.refresh(EmbeddedWebApplicationContext.java:118)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:687)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:321)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:967)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:956)
+	at com.promineotech.chessTracker.App.main(App.java:15)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.springframework.boot.maven.RunMojo$LaunchRunner.run(RunMojo.java:418)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+2021-02-11 18:32:03.019  WARN DESKTOP-IR8BVC0
+            --- [cker.App.main()] o.h.e.j.i.JdbcServicesImpl               : HHH000342: Could not obtain connection to query metadata : Access denied for user 'root'@'localhost' (using password: YES)
+2021-02-11 18:32:03.078  INFO DESKTOP-IR8BVC0
+            --- [cker.App.main()] o.h.d.Dialect                            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2021-02-11 18:32:03.108  INFO DESKTOP-IR8BVC0
+            --- [cker.App.main()] o.h.e.j.i.LobCreatorBuilder              : HHH000422: Disabling contextual LOB creation as connection was null
+2021-02-11 18:32:03.436  INFO DESKTOP-IR8BVC0
+            --- [cker.App.main()] o.h.h.i.a.ASTQueryTranslatorFactory      : HHH000397: Using ASTQueryTranslatorFactory
+2021-02-11 18:32:04.153  INFO DESKTOP-IR8BVC0
+            --- [cker.App.main()] o.h.t.h.SchemaExport                     : HHH000227: Running hbm2ddl schema export
+2021-02-11 18:32:04.209 ERROR DESKTOP-IR8BVC0
+            --- [cker.App.main()] o.a.t.j.p.ConnectionPool                 : Unable to create initial connections of pool.
+java.sql.SQLException: Access denied for user 'root'@'localhost' (using password: YES)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:129)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:97)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)
+	at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:836)
+	at com.mysql.cj.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:456)
+	at com.mysql.cj.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:246)
+	at com.mysql.cj.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:197)
+	at org.apache.tomcat.jdbc.pool.PooledConnection.connectUsingDriver(PooledConnection.java:307)
+	at org.apache.tomcat.jdbc.pool.PooledConnection.connect(PooledConnection.java:200)
+	at org.apache.tomcat.jdbc.pool.ConnectionPool.createConnection(ConnectionPool.java:704)
+	at org.apache.tomcat.jdbc.pool.ConnectionPool.borrowConnection(ConnectionPool.java:638)
+	at org.apache.tomcat.jdbc.pool.ConnectionPool.init(ConnectionPool.java:483)
+	at org.apache.tomcat.jdbc.pool.ConnectionPool.<init>(ConnectionPool.java:141)
+	at org.apache.tomcat.jdbc.pool.DataSourceProxy.pCreatePool(DataSourceProxy.java:115)
+	at org.apache.tomcat.jdbc.pool.DataSourceProxy.createPool(DataSourceProxy.java:102)
+	at org.apache.tomcat.jdbc.pool.DataSourceProxy.getConnection(DataSourceProxy.java:126)
+	at org.hibernate.engine.jdbc.connections.internal.DatasourceConnectionProviderImpl.getConnection(DatasourceConnectionProviderImpl.java:139)
+	at org.hibernate.tool.hbm2ddl.SuppliedConnectionProviderConnectionHelper.prepare(SuppliedConnectionProviderConnectionHelper.java:51)
+	at org.hibernate.tool.hbm2ddl.DatabaseExporter.<init>(DatabaseExporter.java:52)
+	at org.hibernate.tool.hbm2ddl.SchemaExport.execute(SchemaExport.java:368)
+	at org.hibernate.tool.hbm2ddl.SchemaExport.create(SchemaExport.java:305)
+	at org.hibernate.tool.hbm2ddl.SchemaExport.create(SchemaExport.java:294)
+	at org.hibernate.internal.SessionFactoryImpl.<init>(SessionFactoryImpl.java:517)
+	at org.hibernate.cfg.Configuration.buildSessionFactory(Configuration.java:1859)
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl$4.perform(EntityManagerFactoryBuilderImpl.java:857)
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl$4.perform(EntityManagerFactoryBuilderImpl.java:850)
+	at org.hibernate.boot.registry.classloading.internal.ClassLoaderServiceImpl.withTccl(ClassLoaderServiceImpl.java:425)
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.build(EntityManagerFactoryBuilderImpl.java:849)
+	at org.springframework.orm.jpa.vendor.SpringHibernateJpaPersistenceProvider.createContainerEntityManagerFactory(SpringHibernateJpaPersistenceProvider.java:60)
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.createNativeEntityManagerFactory(LocalContainerEntityManagerFactoryBean.java:343)
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.afterPropertiesSet(AbstractEntityManagerFactoryBean.java:318)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1633)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1570)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:539)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:476)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:303)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:230)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:299)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:194)
+	at org.springframework.context.support.AbstractApplicationContext.getBean(AbstractApplicationContext.java:956)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:747)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:480)
+	at org.springframework.boot.context.embedded.EmbeddedWebApplicationContext.refresh(EmbeddedWebApplicationContext.java:118)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:687)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:321)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:967)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:956)
+	at com.promineotech.chessTracker.App.main(App.java:15)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.springframework.boot.maven.RunMojo$LaunchRunner.run(RunMojo.java:418)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+2021-02-11 18:32:04.420 ERROR DESKTOP-IR8BVC0
+            --- [cker.App.main()] o.h.t.h.SchemaExport                     : HHH000231: Schema export unsuccessful
+java.sql.SQLException: Access denied for user 'root'@'localhost' (using password: YES)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:129)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:97)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)
+	at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:836)
+	at com.mysql.cj.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:456)
+	at com.mysql.cj.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:246)
+	at com.mysql.cj.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:197)
+	at org.apache.tomcat.jdbc.pool.PooledConnection.connectUsingDriver(PooledConnection.java:307)
+	at org.apache.tomcat.jdbc.pool.PooledConnection.connect(PooledConnection.java:200)
+	at org.apache.tomcat.jdbc.pool.ConnectionPool.createConnection(ConnectionPool.java:704)
+	at org.apache.tomcat.jdbc.pool.ConnectionPool.borrowConnection(ConnectionPool.java:638)
+	at org.apache.tomcat.jdbc.pool.ConnectionPool.init(ConnectionPool.java:483)
+	at org.apache.tomcat.jdbc.pool.ConnectionPool.<init>(ConnectionPool.java:141)
+	at org.apache.tomcat.jdbc.pool.DataSourceProxy.pCreatePool(DataSourceProxy.java:115)
+	at org.apache.tomcat.jdbc.pool.DataSourceProxy.createPool(DataSourceProxy.java:102)
+	at org.apache.tomcat.jdbc.pool.DataSourceProxy.getConnection(DataSourceProxy.java:126)
+	at org.hibernate.engine.jdbc.connections.internal.DatasourceConnectionProviderImpl.getConnection(DatasourceConnectionProviderImpl.java:139)
+	at org.hibernate.tool.hbm2ddl.SuppliedConnectionProviderConnectionHelper.prepare(SuppliedConnectionProviderConnectionHelper.java:51)
+	at org.hibernate.tool.hbm2ddl.DatabaseExporter.<init>(DatabaseExporter.java:52)
+	at org.hibernate.tool.hbm2ddl.SchemaExport.execute(SchemaExport.java:368)
+	at org.hibernate.tool.hbm2ddl.SchemaExport.create(SchemaExport.java:305)
+	at org.hibernate.tool.hbm2ddl.SchemaExport.create(SchemaExport.java:294)
+	at org.hibernate.internal.SessionFactoryImpl.<init>(SessionFactoryImpl.java:517)
+	at org.hibernate.cfg.Configuration.buildSessionFactory(Configuration.java:1859)
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl$4.perform(EntityManagerFactoryBuilderImpl.java:857)
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl$4.perform(EntityManagerFactoryBuilderImpl.java:850)
+	at org.hibernate.boot.registry.classloading.internal.ClassLoaderServiceImpl.withTccl(ClassLoaderServiceImpl.java:425)
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.build(EntityManagerFactoryBuilderImpl.java:849)
+	at org.springframework.orm.jpa.vendor.SpringHibernateJpaPersistenceProvider.createContainerEntityManagerFactory(SpringHibernateJpaPersistenceProvider.java:60)
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.createNativeEntityManagerFactory(LocalContainerEntityManagerFactoryBean.java:343)
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.afterPropertiesSet(AbstractEntityManagerFactoryBean.java:318)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1633)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1570)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:539)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:476)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:303)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:230)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:299)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:194)
+	at org.springframework.context.support.AbstractApplicationContext.getBean(AbstractApplicationContext.java:956)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:747)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:480)
+	at org.springframework.boot.context.embedded.EmbeddedWebApplicationContext.refresh(EmbeddedWebApplicationContext.java:118)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:687)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:321)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:967)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:956)
+	at com.promineotech.chessTracker.App.main(App.java:15)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.springframework.boot.maven.RunMojo$LaunchRunner.run(RunMojo.java:418)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+2021-02-11 18:32:04.654  INFO DESKTOP-IR8BVC0
+            --- [cker.App.main()] o.h.t.h.SchemaExport                     : HHH000230: Schema export complete
+2021-02-11 18:32:06.096  INFO DESKTOP-IR8BVC0
+            --- [cker.App.main()] s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@3b5fe419: startup date [Thu Feb 11 18:31:50 CST 2021]; root of context hierarchy
+2021-02-11 18:32:06.462  INFO DESKTOP-IR8BVC0
+            --- [cker.App.main()] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/games/{id}],methods=[GET]}" onto public org.springframework.http.ResponseEntity<java.lang.Object> com.promineotech.chessTracker.controller.GameController.getGame(java.lang.Long)
+2021-02-11 18:32:06.485  INFO DESKTOP-IR8BVC0
+            --- [cker.App.main()] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/games],methods=[POST]}" onto public org.springframework.http.ResponseEntity<java.lang.Object> com.promineotech.chessTracker.controller.GameController.createGame(com.promineotech.chessTracker.entity.Game)
+2021-02-11 18:32:06.516  INFO DESKTOP-IR8BVC0
+            --- [cker.App.main()] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/games],methods=[GET]}" onto public org.springframework.http.ResponseEntity<java.lang.Object> com.promineotech.chessTracker.controller.GameController.getGames()
+2021-02-11 18:32:06.533  INFO DESKTOP-IR8BVC0
+            --- [cker.App.main()] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/games/{id}],methods=[PUT]}" onto public org.springframework.http.ResponseEntity<java.lang.Object> com.promineotech.chessTracker.controller.GameController.updateGame(com.promineotech.chessTracker.entity.Game,java.lang.Long)
+2021-02-11 18:32:06.568  INFO DESKTOP-IR8BVC0
+            --- [cker.App.main()] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/games/{id}],methods=[DELETE]}" onto public org.springframework.http.ResponseEntity<java.lang.Object> com.promineotech.chessTracker.controller.GameController.deleteGame(java.lang.Long)
+2021-02-11 18:32:06.580  INFO DESKTOP-IR8BVC0
+            --- [cker.App.main()] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/player],methods=[GET]}" onto public org.springframework.http.ResponseEntity<java.lang.Object> com.promineotech.chessTracker.controller.PlayerController.getCustomers()
+2021-02-11 18:32:06.583  INFO DESKTOP-IR8BVC0
+            --- [cker.App.main()] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/player/{id}, method = RequestMethod.GET)]}" onto public org.springframework.http.ResponseEntity<java.lang.Object> com.promineotech.chessTracker.controller.PlayerController.getPlayer(java.lang.Long)
+2021-02-11 18:32:06.587  INFO DESKTOP-IR8BVC0
+            --- [cker.App.main()] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/player/{id}],methods=[PUT]}" onto public org.springframework.http.ResponseEntity<java.lang.Object> com.promineotech.chessTracker.controller.PlayerController.updatePlayer(com.promineotech.chessTracker.entity.Player,java.lang.Long)
+2021-02-11 18:32:06.592  INFO DESKTOP-IR8BVC0
+            --- [cker.App.main()] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/player],methods=[POST]}" onto public org.springframework.http.ResponseEntity<java.lang.Object> com.promineotech.chessTracker.controller.PlayerController.createPlayer(com.promineotech.chessTracker.entity.Player)
+2021-02-11 18:32:06.598  INFO DESKTOP-IR8BVC0
+            --- [cker.App.main()] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/player/{id}/history],methods=[GET]}" onto public org.springframework.http.ResponseEntity<java.lang.Object> com.promineotech.chessTracker.controller.PlayerController.getPlayerHistory(java.lang.Long)
+2021-02-11 18:32:06.606  INFO DESKTOP-IR8BVC0
+            --- [cker.App.main()] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/playergame],methods=[GET]}" onto public org.springframework.http.ResponseEntity<java.lang.Object> com.promineotech.chessTracker.controller.PlayerGameController.getPlayerGames()
+2021-02-11 18:32:06.639  INFO DESKTOP-IR8BVC0
+            --- [cker.App.main()] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/playergame],methods=[POST]}" onto public org.springframework.http.ResponseEntity<java.lang.Object> com.promineotech.chessTracker.controller.PlayerGameController.createPlayerGame(com.promineotech.chessTracker.requests.PlayerGameRequest)
+2021-02-11 18:32:06.653  INFO DESKTOP-IR8BVC0
+            --- [cker.App.main()] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/playergame/{id}],methods=[PUT]}" onto public org.springframework.http.ResponseEntity<java.lang.Object> com.promineotech.chessTracker.controller.PlayerGameController.updatePlayerGame(com.promineotech.chessTracker.requests.PlayerGameRequest,java.lang.Long)
+2021-02-11 18:32:06.659  INFO DESKTOP-IR8BVC0
+            --- [cker.App.main()] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/playergame/{id}],methods=[GET]}" onto public org.springframework.http.ResponseEntity<java.lang.Object> com.promineotech.chessTracker.controller.PlayerGameController.getPlayerGame(java.lang.Long)
+2021-02-11 18:32:06.665  INFO DESKTOP-IR8BVC0
+            --- [cker.App.main()] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/playergame/{id}],methods=[DELETE]}" onto public org.springframework.http.ResponseEntity<java.lang.Object> com.promineotech.chessTracker.controller.PlayerGameController.deletePlayerGame(java.lang.Long)
+2021-02-11 18:32:06.674  INFO DESKTOP-IR8BVC0
+            --- [cker.App.main()] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2021-02-11 18:32:06.750  INFO DESKTOP-IR8BVC0
+            --- [cker.App.main()] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest)
+2021-02-11 18:32:06.884  INFO DESKTOP-IR8BVC0
+            --- [cker.App.main()] o.s.w.s.h.SimpleUrlHandlerMapping        : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2021-02-11 18:32:06.917  INFO DESKTOP-IR8BVC0
+            --- [cker.App.main()] o.s.w.s.h.SimpleUrlHandlerMapping        : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2021-02-11 18:32:07.079  INFO DESKTOP-IR8BVC0
+            --- [cker.App.main()] o.s.w.s.h.SimpleUrlHandlerMapping        : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2021-02-11 18:32:08.007  INFO DESKTOP-IR8BVC0
+            --- [cker.App.main()] o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
+2021-02-11 18:32:08.189  INFO DESKTOP-IR8BVC0
+            --- [cker.App.main()] o.a.c.h.Http11NioProtocol                : Initializing ProtocolHandler ["http-nio-8080"]
+2021-02-11 18:32:08.258  INFO DESKTOP-IR8BVC0
+            --- [cker.App.main()] o.a.c.h.Http11NioProtocol                : Starting ProtocolHandler ["http-nio-8080"]
+2021-02-11 18:32:08.286  INFO DESKTOP-IR8BVC0
+            --- [cker.App.main()] o.a.t.u.n.NioSelectorPool                : Using a shared selector for servlet write/read
+2021-02-11 18:32:08.323  INFO DESKTOP-IR8BVC0
+            --- [cker.App.main()] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat started on port(s): 8080 (http)
+2021-02-11 18:32:08.358  INFO DESKTOP-IR8BVC0
+            --- [cker.App.main()] c.p.c.App                                : Started App in 18.668 seconds (JVM running for 27.906)
+2021-02-11 18:33:45.139  INFO DESKTOP-IR8BVC0
+            --- [cker.App.main()] c.p.c.App                                : Starting App on DESKTOP-IR8BVC0 with PID 6840 (C:\Users\Owner\eclipse-workspace\chessTracker\target\classes started by Hannah in C:\Users\Owner\eclipse-workspace\chessTracker)
+2021-02-11 18:33:45.200  INFO DESKTOP-IR8BVC0
+            --- [cker.App.main()] ationConfigEmbeddedWebApplicationContext : Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@185c462f: startup date [Thu Feb 11 18:33:45 CST 2021]; root of context hierarchy
+2021-02-11 18:33:46.385  INFO DESKTOP-IR8BVC0
+            --- [cker.App.main()] o.s.b.f.s.DefaultListableBeanFactory     : Overriding bean definition for bean 'beanNameViewResolver': replacing [Root bean: class [null]; scope=; abstract=false; lazyInit=false; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=org.springframework.boot.autoconfigure.web.ErrorMvcAutoConfiguration$WhitelabelErrorViewConfiguration; factoryMethodName=beanNameViewResolver; initMethodName=null; destroyMethodName=(inferred); defined in class path resource [org/springframework/boot/autoconfigure/web/ErrorMvcAutoConfiguration$WhitelabelErrorViewConfiguration.class]] with [Root bean: class [null]; scope=; abstract=false; lazyInit=false; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=org.springframework.boot.autoconfigure.web.WebMvcAutoConfiguration$WebMvcAutoConfigurationAdapter; factoryMethodName=beanNameViewResolver; initMethodName=null; destroyMethodName=(inferred); defined in class path resource [org/springframework/boot/autoconfigure/web/WebMvcAutoConfiguration$WebMvcAutoConfigurationAdapter.class]]
+2021-02-11 18:33:47.234  INFO DESKTOP-IR8BVC0
+            --- [cker.App.main()] o.h.v.i.u.Version                        : HV000001: Hibernate Validator 5.1.3.Final
+2021-02-11 18:33:47.571  INFO DESKTOP-IR8BVC0
+            --- [cker.App.main()] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [class org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$b51004a7] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-02-11 18:33:47.626  INFO DESKTOP-IR8BVC0
+            --- [cker.App.main()] trationDelegate$BeanPostProcessorChecker : Bean 'transactionAttributeSource' of type [class org.springframework.transaction.annotation.AnnotationTransactionAttributeSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-02-11 18:33:47.671  INFO DESKTOP-IR8BVC0
+            --- [cker.App.main()] trationDelegate$BeanPostProcessorChecker : Bean 'transactionInterceptor' of type [class org.springframework.transaction.interceptor.TransactionInterceptor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-02-11 18:33:47.687  INFO DESKTOP-IR8BVC0
+            --- [cker.App.main()] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.config.internalTransactionAdvisor' of type [class org.springframework.transaction.interceptor.BeanFactoryTransactionAttributeSourceAdvisor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-02-11 18:33:48.729  INFO DESKTOP-IR8BVC0
+            --- [cker.App.main()] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat initialized with port(s): 8080 (http)
+2021-02-11 18:33:49.008  INFO DESKTOP-IR8BVC0
+            --- [cker.App.main()] o.a.c.c.StandardService                  : Starting service Tomcat
+2021-02-11 18:33:49.019  INFO DESKTOP-IR8BVC0
+            --- [cker.App.main()] o.a.c.c.StandardEngine                   : Starting Servlet Engine: Apache Tomcat/8.0.26
+2021-02-11 18:33:49.148  INFO DESKTOP-IR8BVC0
+            --- [ost-startStop-1] o.a.c.l.WebappLoader                     : Unknown loader jdk.internal.loader.ClassLoaders$AppClassLoader@2cdf8d8a class jdk.internal.loader.ClassLoaders$AppClassLoader
+2021-02-11 18:33:49.225  INFO DESKTOP-IR8BVC0
+            --- [ost-startStop-1] o.a.c.c.C.[.[.[/]                        : Initializing Spring embedded WebApplicationContext
+2021-02-11 18:33:49.228  INFO DESKTOP-IR8BVC0
+            --- [ost-startStop-1] o.s.w.c.ContextLoader                    : Root WebApplicationContext: initialization completed in 4035 ms
+2021-02-11 18:33:50.393  INFO DESKTOP-IR8BVC0
+            --- [ost-startStop-1] o.s.b.c.e.ServletRegistrationBean        : Mapping servlet: 'dispatcherServlet' to [/]
+2021-02-11 18:33:50.406  INFO DESKTOP-IR8BVC0
+            --- [ost-startStop-1] o.s.b.c.e.FilterRegistrationBean         : Mapping filter: 'characterEncodingFilter' to: [/*]
+2021-02-11 18:33:50.421  INFO DESKTOP-IR8BVC0
+            --- [ost-startStop-1] o.s.b.c.e.FilterRegistrationBean         : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2021-02-11 18:33:50.760  INFO DESKTOP-IR8BVC0
+            --- [ost-startStop-1] o.a.c.u.SessionIdGeneratorBase           : Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [282] milliseconds.
+2021-02-11 18:33:51.172  INFO DESKTOP-IR8BVC0
+            --- [cker.App.main()] j.LocalContainerEntityManagerFactoryBean : Building JPA container EntityManagerFactory for persistence unit 'default'
+2021-02-11 18:33:51.196  INFO DESKTOP-IR8BVC0
+            --- [cker.App.main()] o.h.j.i.u.LogHelper                      : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2021-02-11 18:33:51.363  INFO DESKTOP-IR8BVC0
+            --- [cker.App.main()] o.h.Version                              : HHH000412: Hibernate Core {4.3.11.Final}
+2021-02-11 18:33:51.369  INFO DESKTOP-IR8BVC0
+            --- [cker.App.main()] o.h.c.Environment                        : HHH000206: hibernate.properties not found
+2021-02-11 18:33:51.374  INFO DESKTOP-IR8BVC0
+            --- [cker.App.main()] o.h.c.Environment                        : HHH000021: Bytecode provider name : javassist
+2021-02-11 18:33:51.630  INFO DESKTOP-IR8BVC0
+            --- [cker.App.main()] o.h.a.c.Version                          : HCANN000001: Hibernate Commons Annotations {4.0.5.Final}
+2021-02-11 18:33:52.963  INFO DESKTOP-IR8BVC0
+            --- [cker.App.main()] o.h.d.Dialect                            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2021-02-11 18:33:53.216  INFO DESKTOP-IR8BVC0
+            --- [cker.App.main()] o.h.h.i.a.ASTQueryTranslatorFactory      : HHH000397: Using ASTQueryTranslatorFactory
+2021-02-11 18:33:53.698  INFO DESKTOP-IR8BVC0
+            --- [cker.App.main()] o.h.t.h.SchemaExport                     : HHH000227: Running hbm2ddl schema export
+2021-02-11 18:34:23.268  INFO DESKTOP-IR8BVC0
+            --- [cker.App.main()] o.h.t.h.SchemaExport                     : HHH000230: Schema export complete
+2021-02-11 18:34:24.000  INFO DESKTOP-IR8BVC0
+            --- [cker.App.main()] s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@185c462f: startup date [Thu Feb 11 18:33:45 CST 2021]; root of context hierarchy
+2021-02-11 18:34:24.144  INFO DESKTOP-IR8BVC0
+            --- [cker.App.main()] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/games],methods=[POST]}" onto public org.springframework.http.ResponseEntity<java.lang.Object> com.promineotech.chessTracker.controller.GameController.createGame(com.promineotech.chessTracker.entity.Game)
+2021-02-11 18:34:24.151  INFO DESKTOP-IR8BVC0
+            --- [cker.App.main()] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/games/{id}],methods=[GET]}" onto public org.springframework.http.ResponseEntity<java.lang.Object> com.promineotech.chessTracker.controller.GameController.getGame(java.lang.Long)
+2021-02-11 18:34:24.153  INFO DESKTOP-IR8BVC0
+            --- [cker.App.main()] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/games],methods=[GET]}" onto public org.springframework.http.ResponseEntity<java.lang.Object> com.promineotech.chessTracker.controller.GameController.getGames()
+2021-02-11 18:34:24.159  INFO DESKTOP-IR8BVC0
+            --- [cker.App.main()] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/games/{id}],methods=[PUT]}" onto public org.springframework.http.ResponseEntity<java.lang.Object> com.promineotech.chessTracker.controller.GameController.updateGame(com.promineotech.chessTracker.entity.Game,java.lang.Long)
+2021-02-11 18:34:24.165  INFO DESKTOP-IR8BVC0
+            --- [cker.App.main()] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/games/{id}],methods=[DELETE]}" onto public org.springframework.http.ResponseEntity<java.lang.Object> com.promineotech.chessTracker.controller.GameController.deleteGame(java.lang.Long)
+2021-02-11 18:34:24.169  INFO DESKTOP-IR8BVC0
+            --- [cker.App.main()] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/player/{id}],methods=[PUT]}" onto public org.springframework.http.ResponseEntity<java.lang.Object> com.promineotech.chessTracker.controller.PlayerController.updatePlayer(com.promineotech.chessTracker.entity.Player,java.lang.Long)
+2021-02-11 18:34:24.176  INFO DESKTOP-IR8BVC0
+            --- [cker.App.main()] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/player/{id}, method = RequestMethod.GET)]}" onto public org.springframework.http.ResponseEntity<java.lang.Object> com.promineotech.chessTracker.controller.PlayerController.getPlayer(java.lang.Long)
+2021-02-11 18:34:24.179  INFO DESKTOP-IR8BVC0
+            --- [cker.App.main()] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/player],methods=[GET]}" onto public org.springframework.http.ResponseEntity<java.lang.Object> com.promineotech.chessTracker.controller.PlayerController.getCustomers()
+2021-02-11 18:34:24.181  INFO DESKTOP-IR8BVC0
+            --- [cker.App.main()] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/player],methods=[POST]}" onto public org.springframework.http.ResponseEntity<java.lang.Object> com.promineotech.chessTracker.controller.PlayerController.createPlayer(com.promineotech.chessTracker.entity.Player)
+2021-02-11 18:34:24.192  INFO DESKTOP-IR8BVC0
+            --- [cker.App.main()] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/player/{id}/history],methods=[GET]}" onto public org.springframework.http.ResponseEntity<java.lang.Object> com.promineotech.chessTracker.controller.PlayerController.getPlayerHistory(java.lang.Long)
+2021-02-11 18:34:24.201  INFO DESKTOP-IR8BVC0
+            --- [cker.App.main()] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/playergame],methods=[POST]}" onto public org.springframework.http.ResponseEntity<java.lang.Object> com.promineotech.chessTracker.controller.PlayerGameController.createPlayerGame(com.promineotech.chessTracker.requests.PlayerGameRequest)
+2021-02-11 18:34:24.209  INFO DESKTOP-IR8BVC0
+            --- [cker.App.main()] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/playergame/{id}],methods=[GET]}" onto public org.springframework.http.ResponseEntity<java.lang.Object> com.promineotech.chessTracker.controller.PlayerGameController.getPlayerGame(java.lang.Long)
+2021-02-11 18:34:24.215  INFO DESKTOP-IR8BVC0
+            --- [cker.App.main()] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/playergame],methods=[GET]}" onto public org.springframework.http.ResponseEntity<java.lang.Object> com.promineotech.chessTracker.controller.PlayerGameController.getPlayerGames()
+2021-02-11 18:34:24.226  INFO DESKTOP-IR8BVC0
+            --- [cker.App.main()] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/playergame/{id}],methods=[PUT]}" onto public org.springframework.http.ResponseEntity<java.lang.Object> com.promineotech.chessTracker.controller.PlayerGameController.updatePlayerGame(com.promineotech.chessTracker.requests.PlayerGameRequest,java.lang.Long)
+2021-02-11 18:34:24.238  INFO DESKTOP-IR8BVC0
+            --- [cker.App.main()] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/playergame/{id}],methods=[DELETE]}" onto public org.springframework.http.ResponseEntity<java.lang.Object> com.promineotech.chessTracker.controller.PlayerGameController.deletePlayerGame(java.lang.Long)
+2021-02-11 18:34:24.246  INFO DESKTOP-IR8BVC0
+            --- [cker.App.main()] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2021-02-11 18:34:24.253  INFO DESKTOP-IR8BVC0
+            --- [cker.App.main()] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest)
+2021-02-11 18:34:24.361  INFO DESKTOP-IR8BVC0
+            --- [cker.App.main()] o.s.w.s.h.SimpleUrlHandlerMapping        : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2021-02-11 18:34:24.383  INFO DESKTOP-IR8BVC0
+            --- [cker.App.main()] o.s.w.s.h.SimpleUrlHandlerMapping        : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2021-02-11 18:34:24.501  INFO DESKTOP-IR8BVC0
+            --- [cker.App.main()] o.s.w.s.h.SimpleUrlHandlerMapping        : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2021-02-11 18:34:24.743  INFO DESKTOP-IR8BVC0
+            --- [cker.App.main()] o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
+2021-02-11 18:34:24.830  INFO DESKTOP-IR8BVC0
+            --- [cker.App.main()] o.a.c.h.Http11NioProtocol                : Initializing ProtocolHandler ["http-nio-8080"]
+2021-02-11 18:34:24.846  INFO DESKTOP-IR8BVC0
+            --- [cker.App.main()] o.a.c.h.Http11NioProtocol                : Starting ProtocolHandler ["http-nio-8080"]
+2021-02-11 18:34:24.866  INFO DESKTOP-IR8BVC0
+            --- [cker.App.main()] o.a.t.u.n.NioSelectorPool                : Using a shared selector for servlet write/read
+2021-02-11 18:34:24.898  INFO DESKTOP-IR8BVC0
+            --- [cker.App.main()] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat started on port(s): 8080 (http)
+2021-02-11 18:34:24.902  INFO DESKTOP-IR8BVC0
+            --- [cker.App.main()] c.p.c.App                                : Started App in 40.263 seconds (JVM running for 48.741)
+2021-02-11 18:35:43.288  INFO DESKTOP-IR8BVC0
+            --- [nio-8080-exec-2] o.a.c.c.C.[.[.[/]                        : Initializing Spring FrameworkServlet 'dispatcherServlet'
+2021-02-11 18:35:43.292  INFO DESKTOP-IR8BVC0
+            --- [nio-8080-exec-2] o.s.w.s.DispatcherServlet                : FrameworkServlet 'dispatcherServlet': initialization started
+2021-02-11 18:35:43.321  INFO DESKTOP-IR8BVC0
+            --- [nio-8080-exec-2] o.s.w.s.DispatcherServlet                : FrameworkServlet 'dispatcherServlet': initialization completed in 26 ms
